@@ -1,7 +1,11 @@
 var exec = require('child_process').exec
 
 function _command (cmd, cb) {
-  exec(cmd, { cwd: __dirname }, function (err, stdout, stderr) {
+  var cmdLineArgs = process.argv.slice(2);
+  // TODO - allow ability to override existing arguments
+  var fullCmd = cmd + ' ' + cmdLineArgs.join(' ');
+  
+  exec(fullCmd, { cwd: __dirname }, function (err, stdout, stderr) {
     cb(stdout.split('\n').join(''))
   })
 }
