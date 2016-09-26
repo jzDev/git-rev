@@ -16,10 +16,17 @@
   },
   "homepage" : "https://github.com/jzdev/git-rev-plus",
   "keywords" : [ ],
-  "author" : {
-    "name" : "Johnny Zarate",
-    "email" : "jzdev0@gmail.com",
-    "url" : "https://github.com/jzdev/"
-  },
+  "authors" : [
+    {
+      "name" : "Thomas Blobaum",
+      "email" : "tblobaum@gmail.com",
+      "url" : "https://github.com/tblobaum/"
+    },
+    {
+      "name" : "Johnny Zarate",
+      "email" : "jzdev0@gmail.com",
+      "url" : "https://github.com/jzdev/"
+    }
+  ],
   "license" : "MIT"
 }
