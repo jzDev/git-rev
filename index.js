@@ -26,7 +26,9 @@ function _command(cmd, cb, args, ops) {
 
   if (options.sync === true) {
     var stdout = execSync(fullCmd, { cwd: __dirname, encoding: 'utf8' });
-    return cb(stdout.split('\n').join(''));
+    stdout = stdout.split('\n').join('');
+    cb(stdout);
+    return stdout;
   } else {
     exec(fullCmd, { cwd: __dirname }, function (err, stdout, stderr) {
       cb(stdout.split('\n').join(''))
