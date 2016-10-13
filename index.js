@@ -42,7 +42,7 @@ function generateCommand(methodName, parser) {
 
     var cb = hasCallback ? _cb : function() {};
     var cmdArgs = hasCallback ? _args : _cb;
-    var cmdOptions = hasCallback ? _options : _args;
+    var cmdOptions = (hasCallback ? _options : _args) || {};
 
     if (cmdOptions.sync !== true && !hasCallback) {
       throw new Error('Missing callback for the asynchronous git-rev ' + method + '.');
@@ -80,5 +80,5 @@ module.exports = {
   , exactTag: generateCommand('exactTag', function(str) {
     str = str ? str : undefined;
     return str;
-  }
+  })
 }
