@@ -68,7 +68,6 @@ function generateCommand(methodName, parser) {
   };
 }
 
-// TODO - remove duplicate code
 module.exports = {
     short : generateCommand('short')
   , long : generateCommand('long')
