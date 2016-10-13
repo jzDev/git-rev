@@ -1,32 +1,32 @@
 {
-  "name" : "git-rev-plus",
-  "version" : "0.0.1",
-  "description" : "Get the current git commit hash, tag or branch in node. This is a fork of https://github.com/tblobaum/git-rev.",
-  "main" : "index.js",
-  "bin" : {},
-  "directories" : {
-    "example" : "example"
+  "name": "git-rev-plus",
+  "version": "0.1.0",
+  "description": "Get the current git commit hash, tag or branch in node. This is a fork of https://github.com/tblobaum/git-rev.",
+  "main": "index.js",
+  "bin": {},
+  "directories": {
+    "example": "example"
   },
-  "dependencies" : {},
-  "devDependencies" : {},
-  "scripts" : {},
-  "repository" : {
-    "type" : "git",
-    "url" : "git://github.com/jzdev/git-rev-plus.git"
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jzdev/git-rev-plus.git"
   },
-  "homepage" : "https://github.com/jzdev/git-rev-plus",
-  "keywords" : [ ],
-  "authors" : [
+  "homepage": "https://github.com/jzdev/git-rev-plus",
+  "keywords": [],
+  "authors": [
     {
-      "name" : "Thomas Blobaum",
-      "email" : "tblobaum@gmail.com",
-      "url" : "https://github.com/tblobaum/"
+      "name": "Thomas Blobaum",
+      "email": "tblobaum@gmail.com",
+      "url": "https://github.com/tblobaum/"
     },
     {
-      "name" : "Johnny Zarate",
-      "email" : "jzdev0@gmail.com",
-      "url" : "https://github.com/jzdev/"
+      "name": "Johnny Zarate",
+      "email": "jzdev0@gmail.com",
+      "url": "https://github.com/jzdev/"
     }
   ],
-  "license" : "MIT"
+  "license": "MIT"
 }
