@@ -1,4 +1,7 @@
-# git-rev
+# git-rev-plus
+
+## Contributors
+- The Johnny
 
 access git revision state in node
 
@@ -92,7 +95,7 @@ Allows the ability to execute the command synchronously. If true, the method wil
 
 (The MIT License)
 
-Copyright (c) 2012 Thomas Blobaum <tblobaum@gmail.com>
+Copyright (c) 2016 Jorge Cuadra <jorge@autogravity.com>
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
