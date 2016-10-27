@@ -1,7 +1,7 @@
 # git-rev-plus
 
 ## Contributors
-- Jorge Cuadra 
+- The Johnny
 
 access git revision state in node
 
